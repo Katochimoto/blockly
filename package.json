@@ -1,6 +1,6 @@
 {
   "name": "@rikishi/blockly",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "repository": "git@github.com:Katochimoto/blockly.git",
   "author": "Anton Tursenev <anton@rikishi.info>",
   "license": "MIT",
@@ -17,12 +17,12 @@
     "build:watch": "rollup -c -w"
   },
   "devDependencies": {
-    "blockly": "2.20190722.1",
+    "blockly": "3.20200123.1",
     "builtin-modules": "3.1.0",
     "postcss-copy": "7.1.0",
-    "rollup": "1.22.0",
+    "rollup": "2.1.0",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
-    "rollup-plugin-postcss": "2.0.3"
+    "rollup-plugin-postcss": "2.5.0"
   }
 }
