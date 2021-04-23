@@ -1,4 +1,7 @@
 import './index.css'
-// import 'blockly/python'
-// import 'blockly/python_compressed'
-export * as Blockly from 'blockly/blockly.min.js'
+import Blockly from 'blockly/blockly_compressed'
+import 'blockly/blocks_compressed'
+import 'blockly/javascript_compressed'
+import 'blockly/python_compressed'
+
+export default Blockly
