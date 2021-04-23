@@ -1,2 +1,3 @@
 import './index.css'
-export { default as Blockly } from 'blockly/blockly.min.js'
+import 'blockly/python'
+export * as Blockly from 'blockly'
