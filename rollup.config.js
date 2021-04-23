@@ -1,10 +1,10 @@
 import path from 'path'
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
-import json from '@rollup/plugin-json'
+// import json from '@rollup/plugin-json'
 import postcss from 'rollup-plugin-postcss'
 import analyze from 'rollup-plugin-analyzer'
-import { terser } from 'rollup-plugin-terser'
+// import { terser } from 'rollup-plugin-terser'
 import builtins from 'builtin-modules'
 import postcssCopy from 'postcss-copy'
 
@@ -34,10 +34,10 @@ export default [
         ],
       }),
 
-      json(),
+      // json(),
       resolve(),
       commonjs(),
-      terser(),
+      // terser(),
       analyze({ limit: 5 }),
     ],
 
