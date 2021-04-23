@@ -1,6 +1,6 @@
 {
   "name": "@rikishi/blockly",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "repository": "git@github.com:Katochimoto/blockly.git",
   "author": "Anton Tursenev <anton@rikishi.info>",
   "license": "MIT",
